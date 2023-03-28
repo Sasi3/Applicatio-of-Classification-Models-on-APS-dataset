@@ -164,8 +164,6 @@ train_data_normalized <- cbind(train_data_normalized, class = train_data_clean$c
 View(train_data_normalized)
 
 
-# PREDICTIVE MODELLING ON IMBALANCED TRAINING DATA
-# Run algorithms using 3-fold cross validation
 set.seed(3)
 index <- createDataPartition(train_data_normalized$class, p = 0.75, list = FALSE, times = 1)
 train_data <- train_data_normalized[index, ]
