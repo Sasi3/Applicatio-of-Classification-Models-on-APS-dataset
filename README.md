@@ -8,4 +8,5 @@ Bagging,
 Boosting,
 SVM,
 KNN,
-Decision Tree
+Decision Tree,
+Random Forest
