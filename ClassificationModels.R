@@ -678,3 +678,4 @@ ggplot(cost_data, aes(x = model, y = cost)) +
        y = "Cost") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5))
+                                                                                                                                
