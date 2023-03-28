@@ -7,6 +7,5 @@ Logistic Regression,
 Bagging,
 Boosting,
 SVM,
-KNN,
 Decision Tree,
 Random Forest
